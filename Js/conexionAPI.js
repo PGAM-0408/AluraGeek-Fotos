@@ -1,11 +1,11 @@
 async function listaArticulos() {
-    const conexion = await fetch('http://localhost:3001/articulos');
+    const conexion = await fetch('https://fake-api-pgam.vercel.app/articulos');
     const articulos = await conexion.json();
     return articulos;
 }
 
 async function agregarArticulo(nombre, precio, imagen) {
-    const conexion = await fetch('http://localhost:3001/articulos', {
+    const conexion = await fetch('https://fake-api-pgam.vercel.app/articulos', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -26,7 +26,7 @@ async function agregarArticulo(nombre, precio, imagen) {
 }
 
 async function eliminarArticulo(id) {
-    const conexion = await fetch(`http://localhost:3001/articulos/${id}`, {
+    const conexion = await fetch(`https://fake-api-pgam.vercel.app/articulos/${id}`, {
         method: "DELETE",
     });
 
