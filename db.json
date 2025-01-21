@@ -1,0 +1,76 @@
+{
+  "articulos": [
+    {
+      "nombre": "Pato en el Agua",
+      "precio": "40",
+      "imagen": "https://i.postimg.cc/52X71QhX/DSC04946.jpg",
+      "id": "1"
+    },
+    {
+      "nombre": "Garza",
+      "precio": "55",
+      "imagen": "https://i.postimg.cc/hPyyH15F/DSC04974.jpg",
+      "id": "2"
+    },
+    {
+      "nombre": "Ardilla",
+      "precio": "25",
+      "imagen": "https://i.postimg.cc/BvDmP9Qs/DSC05166.jpg",
+      "id": "3"
+    },
+    {
+      "nombre": "Ardilla V2",
+      "precio": "25",
+      "imagen": "https://i.postimg.cc/4xj83NGB/DSC05202.jpg",
+      "id": "4"
+    },
+    {
+      "nombre": "Urraca",
+      "precio": "20",
+      "imagen": "https://i.postimg.cc/qRTj8bzK/DSC05218.jpg",
+      "id": "5"
+    },
+    {
+      "nombre": "Ave en una piedra",
+      "precio": "15",
+      "imagen": "https://i.postimg.cc/RZJR25tf/DSC05236.jpg",
+      "id": "6"
+    },
+    {
+      "nombre": "Pato V2",
+      "precio": "40",
+      "imagen": "https://i.postimg.cc/HnSz1T30/DSC05305.jpg",
+      "id": "7"
+    },
+    {
+      "nombre": "Flor rosa",
+      "precio": "10",
+      "imagen": "https://i.postimg.cc/V6W44qCV/IMG-20221113-WA0007.jpg",
+      "id": "8"
+    },
+    {
+      "nombre": "Araña",
+      "precio": "5",
+      "imagen": "https://i.postimg.cc/FFGDLxmf/IMG-20221113-WA0008.jpg",
+      "id": "9"
+    },
+    {
+      "nombre": "Rosa",
+      "precio": "10",
+      "imagen": "https://i.postimg.cc/FsRGgJsT/IMG-20221113-WA0009.jpg",
+      "id": "10"
+    },
+    {
+      "id": "4288",
+      "nombre": "Hongo",
+      "precio": "35",
+      "imagen": "https://i.postimg.cc/c4bhD4v0/IMG-20221113-WA0010.jpg"
+    },
+    {
+      "id": "7a71",
+      "nombre": "Cactus",
+      "precio": "25",
+      "imagen": "https://i.postimg.cc/d0MBYHRf/IMG-20221113-WA0011.jpg"
+    }
+  ]
+}

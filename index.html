@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c4b82083a2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <span class="logo-texto">❤️❤️❤️ AluraGeek</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="products-section">
+        <h2 class="titulo-seccion">MIS PRODUCTOS:</h2>
+        <div class="products" data-lista></div>
+      </section>
+
+      <aside class="add-product">
+        <h2>AGREGAR PRODUCTO:</h2>
+        <form data-formulario>
+          <input type="text" placeholder="Nombre del producto..." data-nombre class="form-input" />
+          <input type="text" placeholder="Precio del producto..." data-precio class="form-input" />
+          <input type="text" placeholder="URL de la imagen..." data-imagen class="form-input" />
+          <div class="form-buttons">
+            <button type="submit" class="btn-primary" onclick="crearArticulo(event)">Enviar</button>
+            <button type="reset" class="btn-secondary">Limpiar</button>
+          </div>
+        </form>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <span class="footer-logo">❤️❤️❤️ AluraGeek</span>
+        <p>Desarrollado por Paulina Alva</p>
+        <p>Alura | ONE</p>
+      </div>
+    </footer>
+    <script src="./Js/mostrarArticulos.js" type="module"></script>
+    <script src="./Js/crearArticulo.js" type="module"></script>
+    <script src="./Js/eliminarArticulo.js" type="module"></script>
+  </body>
+</html>
